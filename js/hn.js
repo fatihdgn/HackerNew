@@ -272,7 +272,7 @@ var hn = {
 
   loadUserProfiles: function(urls, callback){
     var name = 'ident' + (new Date).getTime();
-    var port = chrome.extension.connect({name: name});
+    var port = (chrome.extension || browser.runtime).connect({name: name});
     port.postMessage({urls: urls});
     port.onMessage.addListener(callback);
     hn.identport = port;

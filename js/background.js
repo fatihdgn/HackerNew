@@ -1,4 +1,4 @@
-chrome.extension.onConnect.addListener(function(port) {
+(chrome.extension || browser.runtime).onConnect.addListener(function(port) {
   port.onMessage.addListener(function(data) {
     // what to do when we get a response?
     $(document).bind('ident:update', function(){
