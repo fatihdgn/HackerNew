@@ -1,14 +1,19 @@
 # HackerNew
 
-A chrome extension to add requested and missing functionality to hacker news including quick user profiles, inline replies, story filtering and more.
+A Chrome and Firefox extension to add requested and missing functionality to hacker news including quick user profiles, inline replies, story filtering and more.
 
 
 ## Usage
 
-Install from the Chrome Webstore to receive automatic updates:
+Install from the Chrome Webstore
 
 https://chrome.google.com/webstore/detail/lgoghlndihpmbbgmbpjohilcphbfhddd
 
+OR
+
+Install from the Add-ons for Firefox
+
+https://addons.mozilla.org/en-US/firefox/addon/hackernew/
 
 ## Features
 
@@ -34,6 +39,7 @@ HackerNew is released under the MIT license. It is simple and easy to understand
 
 ## Credits
 
+* Forked from [tommoor's repository.](https://github.com/tommoor/HackerNew)
 * Uses jQuery hover intent plugin by [Brian Cherne](http://cherne.net/brian/resources/jquery.hoverIntent.html)
 * Entypo pictograms by [Daniel Bruce](http://www.entypo.com)
 * Form styles from [Twitter Bootstrap](https://github.com/twitter/bootstrap)
